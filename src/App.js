@@ -9,7 +9,7 @@ function App() {
       setProjects(projects)
     }
     fetchMsg()
-  })
+  }, [])
   const ulStyle = {
     listStyle: 'none',
     width: '350px',
